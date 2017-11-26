@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EĞİTİM PORTALI</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+
+<body  background="egitim.jpg"  >         
+                <div  class="row">
+                  <div class="col-md-12" style="margin-left:200px;">
+                      <h1>Eğitim Portalı</h1>                   
+                    <div class="btn-group" id="butonlar" >
+                      <button id ="btnAnasayfa" class="btn btn-primary btn-lg">Ana Sayfa</button>
+                      <button id ="btnIletisim" class="btn btn-primary btn-lg">iletişim</button>           
+                      
+                  </div>  
+                  <div id="sonuc12"></div>                 
+                 </div>  
+              </div>
+            <div class="col-md-4" style="margin-left:900px; margin-top:-80px;" >
+                <table  class="table table-hover">
+                  <tr>
+                    <td>Kullanıcı</td>
+                    <td>Şifre</td>
+                  </tr>
+                  <tr class="">
+                    <td>
+                      <input type="text" class="form-control" id="txtKullanıcı">
+                    </td>
+                    <td>
+                      <input type="password" class="form-control" id="txtSifre">
+                    </td>
+                    <td>
+                        <button id="btnGiriş" class="btn btn-success btn-block">Giriş</button>
+                      </td>
+                      <td>
+                          <button id="btnKaydol" class="btn btn-primary btn-block">Kaydol</button>
+                        </td>
+                  </tr>
+                
+                </table>
+          </div>      
+        <div class="container" style="margin-top:50px;">
+                <div class="row">
+                  <div class="col-md-4">
+                    <label>Ders Adı</label>
+                    <input type="text" id="txtDERS" class="form-control">
+                    <label>Konusu</label>
+                    <input type="text" id="txtKONU" class="form-control">
+                    <label>İçerik</label>
+                    <textarea id="txtICERIK" class="form-control" ></textarea>
+                    <br>
+                    <button id="btnKaydet" class="btn btn-success">Yayınla</button>
+                    <button id="btnBosalt" class="btn btn-warning">Temizle</button>
+                    <hr>                   
+                    <div id="sonuc1"></div>
+                  </div>
+                  <div>
+                    <table class="table table-hover" id="tbKayitlar">
+                      <tr class="bg-info">
+            
+                        <td>Ders Adı</td>
+                        <td>Konusu</td>
+                        <td>Dersin İçeriği</td>
+                        <td>Dersi Sil</td>
+                      </tr>
+                      <tr>
+            
+                        <td>Fizik</td>
+                        <td>MADDENİN TANIMI</td>
+                        <td>
+                                MADDENİN TANIMI
+                                
+                                
+                                <br>Boşlukta yer kaplayan, kütlesi ve eylemsizliği olan her şey maddedir. <br>
+                                <br> Madde ile ilgili örnekler<br>
+                                
+                                <br>Oturduğumuz sıralardan, yediğimiz yiyeceklere, dev yıldızlardan gezegenlere, kullandığımız basit aletlerden bilgisayarlara, tek hücreli canlılardan karmaşık yapılı canlılara, gözümüzle görebildiğimiz bütün nesnelerden, göremediğimiz atmosferdeki gazlara kadar her şey maddedir.<br>
+                                
+                                <br>Maddenin sınıflandırılması<br>
+                                
+                                <br>Maddeler  saf maddeler ve  Karışımlar olmak üzere ikiye ayrılır. Saf maddeler, Elementler ve Bileşiklerdir. Karışımlar, Homojen karışım ve Heterojen karışım olmak üzere ikiye ayrılır<br>
+                               
+                            </td>
+                            <td>
+                          <button class="btn btn-danger sil">Sil</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Fizik</td>
+                        <td>ENERJİ</td>
+                        <td>
+                                ENERJİ
+                                <br>İŞ NEDİR?<br>
+                                
+                                <br>Günlük yaşantımızda iş kelimesini çok farklı anlamlarda kullanırız.
+                                Örneğin inşaatta çalışan bir işçi iş yapıp yorulduğunu söylerken, 
+                                masa başında ders çalışan bir kişide iş yapıp yorulduğunu söyler. 
+                                Genel manada emek harcadığımız ,yorulduğumuz eylemleri tanımlarken ‘iş’ 
+                                kavramını kullanırız. Günlük hayatımızda kullandığımız iş kavramı ile 
+                                fiziksel anlamda tanımlanan iş kavramı zaman zaman uyuşmayabilir. 
+                                Bugün çok iş yaptım dediğimizde fiziksel anlamda hiç iş yapmamış ta olabiliriz.                               
+                                <br> 
+
+                                <br>Fiziksel anlamda iş yapılabilmesi için<br>
+                                
+                                <br>1.) Bir cisme bir kuvvetin uygulanması gerekir yani en az bir kuvvet olmalıdır.<br>
+                                <br>2.) Uygulanan kuvvetin cisme etki eden sürtünme kuvvetini yenerek yol
+                                aldırması gerekir.<br>
+                                <br>3.) Kuvvetle yolun aynı doğrultuda ya da kuvvetin yol doğrultusunda bileşeninin olması gerekir.<br>
+                                <br>Bu şartlardan biri veya birkaçı eksik olursa iş yapılmış sayılmaz.<br>
+                        </td>
+                        <td>
+                          <button class="btn btn-danger sil">Sil</button>
+                        </td>
+                      </tr>
+                      <tr>
+                            <td>Fizik</td>
+                            <td>ISI VE SICAKLIK</td>
+                            <td>
+                                    ISI VE SICAKLIK
+                                    <br>
+                                    Termodinamik, Yunanca’da ısı manasına gelen Thermo-Termo ile kuvvet uygulanmış cisimlerin davranışı olarak kullanılan 
+                                    Dynamic-Dinamik isimlerin birleştirilmesinden meydana gelmektedir.Buna göre, Termodinamik,Fiziğin ısı ile 
+                                    enerji arasındaki bağıntılarını inceleyen ve enerjinin şekil değiştirmesi ile uğraşan kolu olarak tanımlanır.
+                                    <br>
+    
+                                    <br>İç Enerji<br>
+                                    <br>Isı ile karıştırmamamız gereken bir kavram ise iç enerjidir. Maddenin tanecikleri katı,sıvı ve gaz haline göre  titreşim, öteleme ve dönme hareketi yaparlar, 
+                                    ve kinetik enerjiye sahip olurlar. Aynı zamanda çekirdekteki nükleonları (proton-nötron) bir arada tutan kuvvet ve fiziksel, kimyasal bağlardan dolayı madde içerisinde potansiyel enerji depolanır. 
+                                     Maddeyi oluşturan taneciklerin kinetik ve potansiyel enerjilerinin toplamına iç enerji denir.<br> 
+    
+                                    <br>Isı<br>
+                                    
+                                    <br>Sıcaklık farkından dolayı maddeler arasında  aktarılan enerjiye ısı enerjisi denir. Termodinamiğin ikinci yasasına göre ısı akışı sıcak cisimden soğuk cisme doğrudur. 
+                                    Isı akışı sıcaklıklar eşitleninceye kadar devam eder. Sıcaklıklar eşitlenince sistem ısıl dengeye gelir.<br>
+                                    <br>Sıcaklık<br>
+                                    <br>Bir maddenin moleküllerinin ortalama kinetik enerjisiyle doğru orantılı bir niceliktir.  Sıcaklık maddenin moleküllerinin hareketi ile ilgilidir , maddenin molekülleri ne kadar hareketli ise sıcaklık o kadar fazladır. 
+                                    Sıcaklık birimi olarak Kelvin(K) , Celcius(°C ) , Fahrennayt (F) Reomür(R) kullanılır.<br>
+                                    
+                                    <br>Isı ve Sıcaklık Arasındaki Farklar<br>
+
+                                    <br>1.) Isı enerji çeşididir, sıcaklık değildir. Kinetik enerji ile orantılı büyüklüktür.<br>
+                                    <br>2.) Isı dolaylı yollaradan kalorimetre kabı ile ölçülür, Sıcaklık termometre ileölçülür.<br>
+                                    <br>3.) Isı birimleri Kalori ve Joule, sıcaklık birimleri Kelvin(K) , Celcius(°C ) , Fahrennayt (F) Reomür(R) ‘dır.<br>
+
+                            </td>
+                            <td>
+                              <button class="btn btn-danger sil">Sil</button>
+                            </td>
+                          </tr>
+                          <tr>
+                                <td>Fizik</td>
+                                <td>KUVVET VE HAREKET</td>
+                                <td>
+                                        KUVVET VE HAREKET
+        
+                                        <br>SÜRTÜNME KUVVETİ<br>
+                                        <br>Cismin hareketini zorlaştıran etkiye sürtünme kuvveti denir. Sürtünme kuvvetinin belirli bir yönü yoktur, cismin hareketine ters yöndedir. 
+                                        Sürtünme kuvveti sadece katı cisimler için geçerli değildir, sıvı ve gazlarında sürtünmesi vardır.<br> 
+        
+                                        <br>Sürtünme kuvveti nelere bağlıdır?<br>
+                                        
+                                        <br>1.) Sürtünme kuvveti yüzeyin cinsine bağlıdır. Tüm yüzeylerin farklı sürtünme katsayıları vardır.<br>
+                                        <br>2.) Sürtünme Kuvveti cismin ağırlığı ile doğru orantılıdır. Cismin ağırlığı arttıkça daha fazla sürtünmeye maruz kalır.  
+                                        Örneğin 10kg’lık cismi harekete geçirmek için gereken kuvvet, 5 kg’lık cismi harekete geçirmek için gereken kuvvetten daha fazladır.<br>
+                                        <br>3.) Sürtünme kuvveti yüzeyin eğimine bağlıdır. Eğim arttıkça sürtünme kuvveti azalır.<br>
+
+                                        <br>Bazı önemli noktalar:<br>
+                                        <br>1.) Sürtünme kuvveti sürtünen yüzeyin büyüklüğüne bağlı değildir.<br>
+                                        <br>2.) Sürtünme kuvveti her zaman  cismin hareket yönüne zıt yöndedir.<br>
+                                        <br>3.) Sürtünme kuvveti yüzeye dik olarak uygulanan kuvvete bağlıdır. Kuvvet yere doğru ise sürtünme artar , kuvvet yukarı doğru ise sürtünme azalır.<br>
+                                        
+                                </td>
+                                <td>
+                                  <button class="btn btn-danger sil">Sil</button>
+                                </td>
+                              </tr>
+                              <tr>
+                                    <td>Fizik</td>
+                                    <td>HIZ VE SÜRET ARASINDAKİ FARK</td>
+                                    <td>
+                                            HIZ VE SÜRET
+            
+                                            <br>Hız ve sürat arasındaki fark nedir?<br>
+                                            <br>Hareketli nin birim zamanda aldığı yola sürat denir.  Sürat=yol/zaman  şeklinde gösterilir.  
+                                             SI birim sisteminde yolun birimi metre(m) ve zamanın birimi saniye (s) olduğundan süratin birimi
+                                             metre/saniye olur.
+                                            <br> 
+            
+                                            <br>Süratte yön ve doğrultu belirtilmez. Bu nedenle sürat skaler bir büyüklüktür.<br>
+                                            
+                                            <br>Sürati 60 m/s olarak verilen bir geminin belli bir zaman sonra aldığı yolu bulabiliriz. 
+                                            Ancak geminin aldığı yolu bilmemiz, geminin nerede olduğunu söylememiz için yeterli olmaz. 
+                                            10 saniye sonra 60 m/s sürate sahip gemi  600 m yol almış olur. Ancak “Gemi nerede?” denildiğinde geminin yerini söyleyemeyiz. 
+                                            Geminin yerini söyleyebilmemiz için süratinin yanında doğrultusunun ve yönünün de verilmesi gerekmektedir. 
+                                            Geminin süratiyle birlikte doğrultusu ve yönünde verilmişse bu durumda geminin süratinden bahsedemeyiz. 
+                                            Çünkü artık vektörel bir büyüklük kullanılmaktadır. Kullanılan bu büyüklüğe hız denir.<br>
+                                            <br>Bir hareketlinin birim zamandaki yer değişmesine hız denir. Hız vektörel bir büyüklüktür. 
+                                            v sembolü ile gösterilir.  SI birim sisteminde hız birimi m/s dir. 
+                                            Günlük hayatta otomobillerin hızlarının birimleri km/h olarak alınır.<br>
+                                            <br>Sürat ve hız arasındaki fark , sürat kavramında yön ve doğrultu kullanılmaz . Yön ve doğrultu kullanılırsa hız ifade edilmiş olur.<br>
+                                    </td>
+                                    <td>
+                                      <button class="btn btn-danger sil">Sil</button>
+                                    </td>
+                                  </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div id="iletiForm" class="alert alert-info" style="background-color:darkgrey" >
+                    <h1>İletişim Formu</h1>
+                    <label>Adı Soyadı</label>
+                    <input type="text" class="form-control">
+                    <label>E-Posta</label>
+                    <input type="text" class="form-control">
+                    <label>Mesajınız</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                    <br>
+                    <button id="btnGonder" class="btn btn-success">Gönder</button>
+                    <button id="btnVazgec" class="btn btn-danger">Vazgeç</button>
+                    <button id="btnTemizle" class="btn btn-warning">Temizle</button>
+                  </div>
+              <script src="js/jquery-3.2.1.js"></script>
+              <script>
+                      $(function () {                     
+                        $("#btnGiriş").click(function () {
+                            var kullanıcı = $("#txtKullanıcı").val();
+                            var sifre = $("#txtSifre").val();
+                            if (kullanıcı == "" || sifre == "") {
+                            alert("Tüm Alanları Doldurunuz!");
+                            return false;
+                            }
+                            $("input:text, password").val("");
+                        });
+                        $("#btnKaydol").click(function () {
+                            var kullanıcı1 = $("#txtKullanıcı").val();
+                            var sifre1 = $("#txtSifre").val();
+                            if (kullanıcı1 == "" || sifre1 == "") {
+                            alert("Bir Kullanıcı ve Şifre Giriniz");
+                            return false;
+                            }
+                            $("input:text, password").val("");
+                        });
+                        
+                         });                     
+                      $(function(){
+                            $("#tbKayitlar tr:odd").addClass("bg-info");
+                            $("#tbKayitlar tr:even").addClass("bg-success");
+                         });
+                      $(function () {
+                        $("#btnBosalt").click(function () {
+                            $("input:text, textarea").val("");
+                            return false;
+                        });
+                        $("#btnKaydet").click(function () {
+                          var DERS = $("#txtDERS").val();
+                          var KONU = $("#txtKONU").val();
+                          var ICERIK = $("#txtICERIK").val();
+                          if (DERS == "" || KONU == "" || ICERIK == "") {
+                            $("#sonuc1").fadeIn(1000);
+                            $("#sonuc1").html("Lütfen Tüm Alanları Doldurunuz!");
+                            $("#sonuc1").removeClass();
+                            $("#sonuc1").addClass("alert alert-danger");
+                            $("#sonuc1").fadeOut(3000);
+                            return false;
+                          }
+                          $("#tbKayitlar").append("<tr><td>" + DERS + "</td><td>" + KONU + "</td><td>" + ICERIK + "</td><td><button class='btn btn-danger sil'>Sil</button></td></tr>");
+                        });
+                        $(document).on("click", ".sil", function () {
+                          var satir = $(this).closest("tr");
+                          satir.remove();
+                        });
+                      });
+  $(function () {
+      $("#iletiForm").css({
+        "width": "300px",
+        "position": "fixed",
+        "top": "-500px",
+        "left": "500px"
+      });
+      $("#btnIletisim").click(function () {
+        $("#iletiForm").animate({
+          "top": "100px",
+          "left": "500px"
+        }, 1000);
+        return false;
+      });
+      $("#btnVazgec").click(function () {
+        $("#iletiForm").animate({
+          "top": "-500px",
+          "left": "500px"
+        }, 1000);
+        $("#btnTemizle").click();
+        return false;
+      });
+      $("#btnTemizle").click(function () {
+        $("input:text, textarea").val("");
+        return false;
+      });
+      $("#btnAnasayfa").click(function () {
+        $("#iletiForm").animate({
+          "top": "-500px",
+          "left": "500px"
+        }, 1000);
+      });
+      $("#btnGiriş").click(function () {
+        $("#iletiForm").animate({
+          "top": "-500px",
+          "left": "500px"
+        }, 1000);
+      });
+      $("#btnGonder").click(function () {
+        $("#iletiForm").animate({
+          "top": "-500px",
+          "left": "500px"
+        }, 1000);
+      });
+      $("#btnGonder").click(function () {
+        $("input:text, textarea").val("");
+       return false;
+      });
+    });         
+</script>
+</body>
+</html>
